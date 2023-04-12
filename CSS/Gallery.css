@@ -1,0 +1,174 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    background: black;
+}
+
+.text{
+    color: white;
+    display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.text1{
+    color: white;
+    display: block;
+	padding: 10px;
+    padding-left: 50px;
+	text-decoration: none;
+    background:none;
+}
+
+.gallery{
+    color: white;
+    position: absolute;
+    top: 28%;
+    left: 10%;
+    bottom: 40%;
+    font-size: 54.1547px;
+    font-family: gt-sectra;
+    font-weight: 200;
+    line-height: 1.3;
+   
+}
+
+.messina{
+    color: white;
+    display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.logo{
+   /* background-color: black; */
+   
+    left: 30px;
+    
+    
+    
+    
+}
+
+.logo2{
+    background-color: #161f1e;
+    
+    float: left;
+    margin-right: 700px;
+    margin-bottom: 200px;
+}
+
+.grid-container {
+    /* padding-top: 15%; */
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal columns */
+    grid-gap: 0px; /* Add a gap between the images */
+  }
+
+  /* Style the images */
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+.copyright{
+    color: white;
+    font-size: 11.9px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+p{
+    color: white;
+    font-size: 14.3px;
+    opacity: 0.4;
+}
+h1{
+    color: white;
+    font-size: 20.368px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: gt-sectra;
+    font-weight: 200;
+    
+}
+
+h2{
+    color: white;
+}
+.header {
+	background-color : white;
+	padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    background-image: url('../assets/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+
+.header-shadow{
+    width: 100%;
+    background-image: url('../assets/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png');
+}
+nav{
+    position: relative;
+    padding-left: 560px;
+    
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	
+	color: #fff;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #161f1e;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    padding:100px 
+    
+}
+
+.col{
+    align-self: flex-start;
+    margin-right: 15px;
+}

@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    background: black;
+}
+
+.text{
+    color: white;
+    display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.sofa{
+    padding-top: 20%;
+}
+
+.text1{
+    color: white;
+    display: block;
+	padding: 10px;
+    padding-left: 50px;
+	text-decoration: none;
+}
+
+.messina{
+    color: white;
+    display: block;
+	padding: 10px;
+	text-decoration: none;
+}
+.logo{
+   background-color: black;
+   position: relative;
+    left: 30px;
+    
+}
+
+.logo2{
+    background-color: #161f1e;
+    
+    float: left;
+    margin-right: 700px;
+    margin-bottom: 200px;
+}
+
+.grid-container {
+    padding-top: 15%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 3 equal columns */
+    grid-gap: 20px; /* Add a gap between the images */
+  }
+
+  /* Style the images */
+  .grid-item img {
+    width: 100%;
+    height: auto;
+  }
+.copyright{
+    color: white;
+    font-size: 11.9px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+p{
+    color: white;
+    font-size: 14.3px;
+    opacity: 0.4;
+}
+h3{
+    color: white;
+    font-size: 14px;
+    
+}
+.header {
+	background-color : black;
+	padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    position: relative;
+    padding-left: 560px;
+    
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul li a {
+	display: block;
+	padding: 10px;
+	color: #333;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #161f1e;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    padding:100px 
+    
+}
+
+.col{
+    align-self: flex-start;
+    margin-right: 15px;
+}
