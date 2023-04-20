@@ -40,6 +40,11 @@ body {
     
 }
 
+.text1:hover {
+
+    text-decoration: underline;
+}
+
 .logo2{
     background-color: #161f1e;
     
@@ -133,7 +138,59 @@ footer{
     
 }
 
+
+
 .col{
     align-self: flex-start;
     margin-right: 15px;
+}
+
+.col2{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 600px)  {
+    .grid-container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    nav{
+        position: relative;
+        padding-left: 0px;
+        
+    }
+    .text1{
+        color: white;
+        display: block;
+        padding: 4px;
+        padding-left: 30px;
+        text-decoration: none;
+        background:none;
+    }
+
+   
+
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: flex-end;
+        height: 100%;
+        width: 100%;
+        padding:100px 
+        
+    }
+    .col2{
+        display: flex;
+        flex-direction: row;
+        padding-top: 100px;
+    }
 }

@@ -1,0 +1,568 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+}
+
+.text {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.text1 {
+    color: white;
+    display: block;
+    padding: 10px;
+    padding-left: 50px;
+    text-decoration: none;
+    background: none;
+
+
+}
+
+
+.messina {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    /* background-color: black; */
+    position: absolute;
+    left: 5%;
+    top: 5%
+}
+
+.sofa {
+    padding-top: 15%;
+}
+
+.logo2 {
+    background-color: #161f1e;
+
+    float: left;
+    margin-right: 700px;
+    margin-bottom: 200px;
+}
+
+.grid-container {
+    /* padding-top: 15%; */
+    /* padding-left: 3%;
+    padding-right: 3%; */
+    padding-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Create 3 equal columns */
+    grid-gap: 0px;
+    /* Add a gap between the images */
+}
+
+/* Style the images */
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.copyright {
+    color: white;
+    font-size: 11.9px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    opacity: 0.6;
+}
+
+.initial {
+    background-color: white;
+    height: 368.51px;
+}
+
+.title {
+    color: black;
+    font-size: 38.3856px;
+    font-family: gt-sectra;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-weight: 200;
+    line-height: 1.4;
+
+
+}
+
+/* body, html{
+    margin:0;
+    padding:0;
+}
+body {
+    min-width: fit-content;
+} */
+h1 {
+    color: white;
+    font-size: 20.368px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: gt-sectra;
+    font-weight: 200;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 15%;
+}
+
+h2 {
+    color: white;
+}
+
+.descriptionTitle {
+    font-family: gt-sectra;
+    font-size: 33.7093px;
+    margin: 0px 0px 31.739px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.description1 {
+    font-size: 14.2825;
+    font-family: messina-sans;
+    padding: 20px 100px;
+    opacity: 0.7;
+}
+
+.description2 {
+    font-size: 14.2825;
+    font-family: messina-sans;
+    padding: 20px 100px;
+    opacity: 0.7;
+}
+
+.video {
+    width: 450px;
+    height: 335px;
+
+
+}
+
+.videoDescription {
+    width: 450px;
+    height: 228px;
+}
+
+.discoveryStory {
+    background-color: #181f1e;
+    height: 573px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 15%;
+}
+
+.videotext {
+    font-size: 33.7093px;
+    font-family: gt-sectra;
+    margin-top: 100px;
+
+
+
+
+}
+
+.textexpdesc {
+    opacity: 0.4;
+    font-size: .9rem;
+    width: 438px;
+    height: 299px;
+    padding-right: 20%;
+}
+
+.textexp {
+    color: #161f1e;
+    font-size: 43.0933px;
+    font-family: gt-sectra;
+    font-weight: 200;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 843.24px;
+    background-color: white;
+}
+
+
+.image {
+    position: relative;
+    top: 5%;
+    left: 15%;
+}
+
+.discovery {
+    height: 1199.49px;
+    background-color: #181f1e;
+    padding: 0 5%;
+}
+
+.button {
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-left: 55px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: black;
+    width: 171.51px;
+    height: 59px;
+    font-size: 12.69px;
+    border: 1px solid black;
+
+}
+
+.headerimage {
+    width: 100%;
+    height: 1720px;
+    position: relative;
+    top: -90%;
+    filter: brightness(50%);
+
+}
+
+.header {
+    /* background-color : black; */
+    /* position:absolute; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    height: 720px;
+    /* background-image: url('../assets/aboutDLCHeader.jpg'); */
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    /* filter: brightness(50%); */
+
+
+}
+
+.nav-item {
+    color: #fff;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: small;
+    display: flex;
+    align-items: center;
+}
+
+.header-shadow {
+    width: 100%;
+    background-image: url('../assets/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png');
+}
+
+nav {
+    position: absolute;
+    right: 10%;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+/* nav ul li a {
+	display: block;
+	padding: 10px;
+	color:white;
+	text-decoration: none;
+}  */
+
+/* nav ul li a:hover {
+	
+	color: #fff;
+} */
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #161f1e;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    padding: 100px
+}
+
+.col {
+    align-self: flex-start;
+    margin-right: 15px;
+}
+
+.ptext {
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+
+}
+
+.righttext {
+    color: black;
+    font-size: 33.7093px;
+    font-family: gt-sectra;
+    padding-top: 50%;
+    padding-left: 10%;
+}
+
+.rightdesc {
+    font-size: 14.2825;
+    font-family: gt-sectra;
+    opacity: 0.7;
+    width: 372.93px;
+    height: 171.45px;
+    padding: 5%;
+    padding-top: 10%;
+
+}
+
+.right {
+
+    width: 60%;
+    padding-left: 10%;
+
+}
+
+.left {
+    padding: 0 7%;
+    padding-top: 120px;
+    width: 40%;
+
+}
+
+.golfcontainer {
+    position: relative;
+    background-color: rgb(247, 236, 236);
+    width: 100%;
+    height: 3200px;
+}
+
+.greycontainer {
+    position: relative;
+    background-color: gray;
+    width: 70%;
+    height: 600px;
+    left: 10%;
+    top: 18%
+}
+
+.golf {
+    position: absolute;
+    top: 18%;
+    background-color: white;
+    width: 60%;
+    left: 60%;
+    width: 500px;
+    height: 489px;
+    z-index: 3;
+}
+
+.golftitle {
+    font-size: 35.3413px;
+    font-family: gt-sectra;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.golfdesc {
+    font-size: 16.6358px;
+    font-family: messina-sans;
+    opacity: 0.7;
+    padding-top: 15%;
+    padding: 9%;
+}
+
+.foregroundimage {
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* set the z-index value to a higher value */
+}
+
+
+.foregroundimage2 {
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* set the z-index value to a higher value */
+}
+
+
+
+.outdoor {
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    width: 60%;
+    right: 62%;
+    width: 500px;
+    height: 489px;
+    z-index: 3;
+}
+
+.greycontainer2 {
+    position: absolute;
+    background-color: gray;
+    width: 70%;
+    height: 600px;
+    left: 12%;
+    top: 51%
+}
+
+.outdoortitle {
+    font-size: 35.3413px;
+    font-family: gt-sectra;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.outdoordesc {
+    font-size: 16.6358px;
+    font-family: messina-sans;
+    opacity: 0.7;
+    padding-top: 15%;
+    padding: 9%;
+}
+
+.greycontainer3 {
+    position: relative;
+    background-color: gray;
+    width: 70%;
+    height: 600px;
+    left: 10%;
+    top: 61%
+}
+
+.well {
+    position: absolute;
+    top: 76%;
+    background-color: white;
+    width: 60%;
+    left: 60%;
+    width: 500px;
+    height: 489px;
+    z-index: 3;
+}
+
+.welltitle {
+    font-size: 35.3413px;
+    font-family: gt-sectra;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+
+.welldesc {
+    font-size: 16.6358px;
+    font-family: messina-sans;
+    opacity: 0.7;
+    padding-top: 15%;
+    padding: 9%;
+}
+
+.foregroundimage3 {
+    position: absolute;
+    top: 84%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    /* set the z-index value to a higher value */
+}
+
+
+.golfimage {
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+    z-index: 1;
+}
+
+
+.text1:hover {
+
+    text-decoration: underline;
+}
+
+
+
+.sub {
+    position: absolute;
+    top: 790%;
+    left: 44%;
+    font-family: gotham;
+    font-weight: 10;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 2.5rem;
+    font-size: 51.1467px;
+
+
+}
+
+.button4 {
+    position: absolute;
+    z-index: 2;
+    top: 790%;
+    left: 43%;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding-left: 55px;
+    padding-right: 20px;
+    padding-top: 20px;
+    color: white;
+    width: 171.51px;
+    height: 59px;
+    font-size: 12.69px;
+    border: 1px solid white;
+    background: transparent;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body {
+      margin-left:0px;
+      width: 100vh;
+    }
+  }
