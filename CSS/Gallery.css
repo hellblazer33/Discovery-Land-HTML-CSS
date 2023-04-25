@@ -16,6 +16,14 @@ body {
 	text-decoration: none;
 }
 
+nav {
+    position: relative;
+    padding-left: 560px;
+
+}
+nav ul li {
+    display: inline-block;
+}
 .text1{
     color: white;
     display: block;
@@ -23,6 +31,9 @@ body {
     padding-left: 50px;
 	text-decoration: none;
     background:none;
+}
+.navbar-toggler {
+    padding-left: 55px;
 }
 
 .gallery{
@@ -44,14 +55,39 @@ body {
 	padding: 10px;
 	text-decoration: none;
 }
-.logo{
-   /* background-color: black; */
-   
+.logo {
+    background-color:transparent;
+    position: relative;
     left: 30px;
-    
-    
-    
-    
+
+}
+nav {
+    position: relative;
+    padding-left: 560px;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    /* background-color: #333; */
+    color: #fff;
 }
 
 .logo2{
@@ -138,16 +174,17 @@ nav ul li {
 	display: inline-block;
 }
 
-nav ul li a {
-	display: block;
-	padding: 10px;
-	color: #333;
-	text-decoration: none;
+nav ul li a{
+    padding-right: 50px;
 }
+
+
+
 
 nav ul li a:hover {
 	
 	color: #fff;
+    text-decoration: underline;
 }
 
 footer{
@@ -183,6 +220,14 @@ footer{
     display: flex;
     flex-direction: row;
 }
+.header {
+    background-color: black;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 @media screen and (max-width: 600px)  {
     .grid-container {
@@ -226,4 +271,76 @@ footer{
         flex-direction: row;
         padding-top: 100px;
     }
+}
+
+
+@media (max-width: 675px) {
+
+    nav .nav-list {
+        display: grid;
+        position: absolute;
+        /* background: #404040; */
+        width: 100%;
+        top: 60px;
+        left: 28px;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: .6s;
+    }
+
+    nav .nav-list .nav-item {
+       padding: 0px;
+
+
+    }
+
+    nav .navbar-toggler {
+        display: grid !important;
+
+    }
+
+}
+
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 22px -20px 0 0;
+    cursor: pointer;
+    margin-left: 20px;
+   
+}
+
+nav .navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+input {
+    display: none;
+}
+
+input:checked~nav .nav-list {
+    transform: translateY(0);
+    z-index: 0;
+}
+
+input:checked~nav .navbar-toggler {
+    margin-top: 35px;
+}
+
+input:checked~nav .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+input:checked~nav .navbar-toggler .bar:nth-child(2) {
+    display: none;
+}
+
+input:checked~nav .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(-45deg);
 }
